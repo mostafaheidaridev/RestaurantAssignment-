@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <header>
+        <h1>Restaurant KEA</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <div id="imageContainer">
+                <img src="img/map.jpg" alt="Restaurant">
+            </div>
+            <div id="contactForm">
+                <div id="contactInfo">
+                    <p class="street">Guldbergsgade 29N </p>
+                    <p class="address">2200 Copenhagen</p>
+                    <a href="tel:20825370">
+                        <p>Phone no.: <strong>20 82 53 70</strong></p>
+                    </a>
+                    <a href="mailto:G4HsX@example.com">
+                        <p>Email: <strong>G4HsX@example.com</strong> </p>
+                    </a>
+                </div>
+                <form>
+                    <fieldset>
+                        <legend>Contact form</legend>
+                        <div>
+                            <label for="txtName">Full name</label>
+                            <input type="text" id="txtName" required>
+                        </div>
+
+                        <div>
+                            <label for="txtPhone">Phone number</label>
+                            <input type="tel" id="txtPhone" required>
+                        </div>
+                        <div>
+                            <label for="txtEmail">E-mail</label>
+                            <input type="email" id="txtEmail" required>
+                        </div>
+                        <div>
+                            <label for="persons">Persons</label>
+                            <input type="number" id="persons" required>
+                        </div>
+
+                        <div>
+                            <label for="date">Date and time</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div>
+                            <label for="txtComments">Further information</label>
+                            <textarea id="txtComments" required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Send</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p id="copyright">&copy; 2021-2025 KEA Development</p>
+    </footer>
+</body>
+
+</html>

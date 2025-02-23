@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --fontTitle: "Comic Neue", cursive;
+    --fontText: "Roboto", sans-serif;
+
+    --fontNavSize: 1.5rem;
+    --fontTextSize: 1rem;
+
+    --colorTextPrimary: #000000;
+    --colorTextSecondary: #ffffff;
+    --colorMenuDarkRed: #b03c34;
+
+    --colorBgHeader: #ea5047;
+    --colorBgMenu: #27354a;
+
+    --colorBackgroundPrimary: #ffffff;
+
+    --colorBackgroundSecondary: #f5f5f5;
+
+    --colorBgGray: #d3d3d3;
+    --colorBgGoldLight: #f3f3bc;
+}
