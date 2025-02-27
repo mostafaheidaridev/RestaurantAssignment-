@@ -28,21 +28,23 @@
             </div>
             <div id="contactForm">
                 <div id="contactInfo">
-                    <p class="street">Guldbergsgade 29N </p>
-                    <p class="address">2200 Copenhagen</p>
-                    <a href="tel:20825370">
-                        <p>Phone no.: <strong>20 82 53 70</strong></p>
-                    </a>
-                    <a href="mailto:G4HsX@example.com">
-                        <p>Email: <strong>G4HsX@example.com</strong> </p>
-                    </a>
+                    <address>
+                        <p class="street">Guldbergsgade 29N </p>
+                        <p class="address">2200 Copenhagen</p>
+                        <a href="tel:20825370">
+                            <p>Phone no.: <strong>20 82 53 70</strong></p>
+                        </a>
+                        <a href="mailto:G4HsX@example.com">
+                            <p>Email: <strong>G4HsX@example.com</strong> </p>
+                        </a>
+                    </address>
                 </div>
                 <form>
                     <fieldset>
                         <legend>Contact form</legend>
                         <div>
                             <label for="txtName">Full name</label>
-                            <input type="text" id="txtName" required>
+                            <input type="text" id="txtName" required pattern="[A-Za-z] + [A-Za-z]" title="Please enter your first and last name" required>
                         </div>
 
                         <div>
@@ -55,7 +57,7 @@
                         </div>
                         <div>
                             <label for="persons">Persons</label>
-                            <input type="number" id="persons" required>
+                            <input type="number" id="persons" min="2" max="20" required>
                         </div>
 
                         <div>
